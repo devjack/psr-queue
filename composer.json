@@ -1,0 +1,17 @@
+{
+    "name": "devjack/psr-queue",
+    "description": "Proposed common interface for implementing queues",
+    "keywords": ["queue"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack Skinner",
+            "homepage": "https://developerjack.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Psr\\Queue\\": "src/"
+        }
+    }
+}
