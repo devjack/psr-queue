@@ -11,3 +11,13 @@ _To be updated and versioned if/once accepted_
 ```sh
 composer.phar require devjack/psr-queue:dev-master
 ```
+
+_For the time being use this repository as a reference for the package_
+```json
+"repositories": [
+    {
+        "url": "https://github.com/devjack/psr-queue.git",
+        "type": "git"
+    }
+]
+```
