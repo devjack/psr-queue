@@ -1,7 +1,11 @@
 {
     "name": "devjack/psr-queue",
     "description": "Proposed common interface for implementing queues",
-    "keywords": ["queue"],
+    "keywords": [
+        "psr",
+        "message",
+        "queue"
+    ],
     "license": "MIT",
     "authors": [
         {

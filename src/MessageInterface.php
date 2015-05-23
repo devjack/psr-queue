@@ -1,10 +1,13 @@
 <?php
+
 namespace Psr\Queue;
 
-interface MessageInterface {
+interface MessageInterface
+{
     /**
-     * @return string Serialised message data.
+     * Gets the message data.
+     *
+     * @return string
      */
     public function getData();
-
 }
