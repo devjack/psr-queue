@@ -2,21 +2,28 @@
 
 namespace Psr\Queue;
 
-interface QueueInterface {
+interface QueueInterface
+{
     /**
-     * @param Message $msg
-     * @return
+     * Adds a message to the queue.
+     *
+     * @param MessageInterface $message
+     *
+     * @return $this
      */
-    public function push(Message $msg);
+    public function push(MessageInterface $message);
 
     /**
-     * @return Message Retrieve message from the queue
+     * Gets a message from the queue.
+     *
+     * @return MessageInterface
      */
     public function pull();
 
     /**
-     * @return string Name or identifier of the queue
+     * Gets the name of the queue.
+     *
+     * @return string
      */
-	public function getName();
-
+    public function getName();
 }
