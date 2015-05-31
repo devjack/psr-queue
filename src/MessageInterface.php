@@ -2,7 +2,9 @@
 
 namespace Psr\Queue;
 
-interface MessageInterface
+use Serializable;
+
+interface MessageInterface extends Serializable
 {
     /**
      * Gets the message data.
